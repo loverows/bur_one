@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0px;
+	margin:0px;
+	background:#000;
+}
+.logo_w{width:100%;height:100%;position:absolute;z-index:101;}
+.logo{width:100%;height:100%;background:#000;position:relative;z-index:101;}
+.logo img{position:absolute;width:90%;height:auto;left:50%;top:25%;margin-left:-45%;transition:all 1s linear; -webkit-transition:all 1s linear;}
+
+.one_pic{position:absolute;bottom:0;left:50%;width:90%;margin-left:-45%;height:auto;z-index:102;transition:all 1s linear; -webkit-transition:all 1s linear;}
+.one_pic img{width:100%;}
+
+.logo_w a{width:100%;height:100%;display:block;position:absolute;z-index:103;left:0;top:0;}
+
+
+
+.stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	z-index:100;
+}
+.stage .sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/tow_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1001;
+}
+
+.a-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../images/tow_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:1002;
+}
+.a-stage .a-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/three_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1002
+}
+
+
+.b-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../images/three_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:1003;
+}
+.b-stage .b-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background:#000;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1003;
+}
+
+.c-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background-size: 100% 100%;
+	z-index:1003;
+}
+.c-stage .c-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/six_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1005;
+}
+
+.fore_w{width:100%;height:100%;position:absolute;left:0;top:0;z-index:1004;background:#000;transition:all .6s linear; -webkit-transition:all .6s linear;}
+.fore_w .t1{width:100%;}
+.fore_w .fore_b{width:100%;height:auto;overflow:hidden;position:relative;margin-top:1.0rem;}
+.fore_w .fore_b .hand{width:14%;height:auto;position:absolute;left:50%;top:14%;margin-left:-40%;z-index:1111;}
+.fore_w .fore_b a{display:block;width:100%;text-decoration:none;overflow:hidden;}
+.fore_w .fore_b a img{width:100%;}
+.fore_w .fore_b img.for_b{width:100%;}
+
+.log_05{width:100%;height:4rem;position:absolute;bottom:0;left:0;font-size:0.8rem;line-height:4.0rem;color:#fff;font-family:Microsoft YaHei,Apple LiGothic Medium;text-align:center;z-index:1100;}
+
+#fore_img{width:74%;height:auto;overflow:hidden;position:absolute;left:50%;top:0;margin-left:-37%;z-index:1005;}
+#fore_img img{width:100%;height:auto;}
+
+
+
+.d-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../images/six_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:1003;
+}
+.d-stage .d-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/seven_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1003;
+}
+.six_wz{width:100%;height:auto;position:absolute;left:0;top:55%;z-index:1004;display:block;opacity:0;}
+.seven_wz{width:100%;height:auto;position:absolute;left:0;top:55%;z-index:1005;display:block;opacity:0;}
+.eight_wz{width:100%;height:auto;position:absolute;left:0;top:55%;z-index:1005;display:block;opacity:0;}
+.nine_wz{width:100%;height:auto;position:absolute;left:0;top:50%;z-index:1005;display:block;opacity:0;}
+
+
+
+.fade1{
+	opacity:1;
+	-webkit-animation: fade1 1s linear;
+	animation: fade1 1s linear;
+}
+
+.fade2{
+	opacity:0;
+	-webkit-animation: fade2 1s linear;
+	animation: fade2 1s linear;
+}
+
+
+
+.e-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../images/seven_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:1003;
+}
+.e-stage .e-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/eight_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1003;
+}
+
+.f-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../images/eight_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:1003;
+}
+.f-stage .f-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/nine_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1003;
+}
+
+.g-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../images/nine_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:1003;
+}
+.g-stage .g-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../images/ten_pic.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+	z-index:1003;
+}
+
+
+
+
+.pt_fade {
+	-webkit-animation: fade 1s linear infinite alternate;
+	animation: fade 1s linear infinite alternate;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: 1; }
+	to { opacity: 0.2; }
+}
+@keyframes fade {
+	from { opacity: 1;}
+	to { opacity: 0.2; }
+}
+
+@-webkit-keyframes fade1 {
+	from {opacity: 0; }
+	to { opacity: 1; }
+}
+@keyframes fade1 {
+	from {opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-webkit-keyframes fade2 {
+	from {opacity: 1; }
+	to { opacity: 0; }
+}
+@keyframes fade2 {
+	from {opacity: 1; }
+	to { opacity: 0; }
+}
+
+
+.spinner {
+  position:absolute;
+  width: 60px;
+  height: 60px;
+  left:50%;
+  top:50%;
+  margin-top:-30px;
+  margin-left:-30px;
+  background-color:#ccc;
+  -webkit-animation:rotateplane 1.2s infinite ease-in-out;
+  animation:rotateplane 1.2s infinite ease-in-out;
+}
+ 
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+ 
+@keyframes rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+
+/*.b-stage{width: 100%;height: 100%;position: absolute;left: 0;top: 0;
+	background: url('../img/bg3.jpg') no-repeat;
+	background-size: 100% 100%;
+	z-index:98;
+}
+.b-stage .b-sprite1{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../img/bg4.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 300%;
+	-webkit-mask-position: 0% 0%;
+}
+.b-stage .b-sprite2{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../img/bg4.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch2.png') no-repeat;
+	-webkit-mask-size: 400% 300%;
+	-webkit-mask-position: 0% 0%;
+}
+.b-stage .b-sprite3{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../img/bg4.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch3.png') no-repeat;
+	-webkit-mask-size: 400% 300%;
+	-webkit-mask-position: 0% 0%;
+}
+.b-stage .b-sprite4{width: 100%;height: 100%;position: absolute;left: 0px;top: 0px;
+	background: url('../img/bg4.jpg') no-repeat;
+	background-size: 100% 100%;
+	-webkit-mask:url('../img/Touch4.png') no-repeat;
+	-webkit-mask-size: 400% 500%;
+	-webkit-mask-position: 0% 0%;
+}*/
+
+
+@media screen and (min-height: 421px) and (max-height:551px){
+	.fore_w .t1{width:80%;margin:0 auto;display:block;}
+	.fore_w .fore_b{margin-top:1rem;}
+	.one_pic{width:76%;margin-left:-38%;}
+}
+@media screen and (min-height: 400px) and (max-height:420px){
+	.fore_w .t1{width:70%;margin:0 auto;display:block;}
+	.fore_w .fore_b{margin-top:0;width:90%;margin:0 auto;}
+	.one_pic{width:76%;margin-left:-38%;}
+}
+
+
+@media screen and (max-height: 399px) {
+	.fore_w .t1{width:60%;margin:0 auto;display:block;}
+	.fore_w .fore_b{margin-top:0;width:90%;margin:0 auto;}
+	.one_pic{width:60%;margin-left:-30%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
